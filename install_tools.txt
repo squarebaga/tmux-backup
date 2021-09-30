@@ -1,0 +1,51 @@
+ag
+ack
+sack
+sag
+
+zsh +  tmux
+https://dev.to/andrenbrandao/terminal-setup-with-zsh-tmux-dracula-theme-48lm
+
+tmux plugin
+
+https://github.com/tmux-plugins/tpm
+https://github.com/tmux-plugins/tmux-resurrect
+https://github.com/tmux-plugins/tmux-continuum
+https://github.com/tmux-plugins/tmux-yank
+https://github.com/tmux-plugins/tmux-open 
+https://github.com/tmux-plugins/tmux-copycat 
+https://github.com/laktak/extrakto 
+
+of 
+
+https://github.com/tmux-plugins/list
+
+--
+copycat
+prefix + ctrl-f -> select mode
+prefix + ] -> paste
+prefix + ctrl-g -> select all file
+prefix + ctrl-d -> select digit
+prefix + ctrl-u -> select url
+prefix + / -> copycat search
+
+============
+
+
+setup github key
+
+client
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+$ ssh-keygen -t ed25519 -C "bagane@gmail.com"
+$ ssh-agent bash
+$ ssh-add ~/.ssh/id_ed25519
+
+host
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+cat ~/.ssh/id_ed25519.pub
+copy content to github setting ssh key page
+
+
+
